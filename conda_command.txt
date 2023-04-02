@@ -1,0 +1,11 @@
+conda --version -> check version of conda
+conda info --envs
+conda update conda --> update conda
+conda env create --prefix ./env -f environment.yml --> create new env from yml
+
+
+#install package
+conda create --prefix ./env pandas numpy matplotlib scikit-learn
+conda activate C:\Users\dao.nguyenx1\Documents\Udemy\CompleteMachineLearning_DataScience_ZerotoMastery\sample_project\env
+conda install jupyter
+conda deactivate
