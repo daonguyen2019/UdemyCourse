@@ -7,3 +7,6 @@ def createchartmultipleline(title, x,xlabel, dict_y, figsize=(8,6), style='fivet
     plt.xlabel(xlabel)
     plt.legend(shadow = True, frameon = True, facecolor = 'white')
     plt.show()
+
+plt.bar(x, y, width=, color  = , align= 'edge')
+plt.bar(x, y, width=, color  = , bottom=)
